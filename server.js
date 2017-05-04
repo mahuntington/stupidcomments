@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 var MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/stupidcomments'
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
